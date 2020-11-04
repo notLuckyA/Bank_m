@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@drawable/bg_v"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
     <TextView
@@ -16,10 +15,11 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:textAllCaps="false"
         android:background="@drawable/custom_button"
         android:clickable="true"
         android:text=""
+        android:textAllCaps="false"
+        android:textColor="@color/BlackColor"
         android:textSize="20sp" />
 
     <Button
@@ -28,10 +28,12 @@
         android:layout_height="100dp"
         android:layout_above="@+id/kurs"
         android:layout_centerInParent="true"
-        android:textAllCaps="false"
         android:layout_marginBottom="20dp"
         android:background="@drawable/custom_button"
-        android:text="Отделения и банкоматы" />
+        android:text="Отделения и банкоматы"
+        android:textAllCaps="false"
+        android:textColor="@color/BlackColor"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/vhod"
@@ -39,8 +41,10 @@
         android:layout_height="100dp"
         android:layout_below="@+id/kurs"
         android:layout_centerInParent="true"
-        android:textAllCaps="false"
         android:layout_marginTop="50dp"
         android:background="@color/BlueColor"
-        android:text="Button" />
+        android:text="Вход"
+        android:textAllCaps="false"
+        android:textColor="@color/BlackColor"
+        android:textSize="25sp" />
 </RelativeLayout>
